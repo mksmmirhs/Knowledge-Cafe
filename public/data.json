@@ -1,0 +1,38 @@
+[
+  {
+    "id": "6425aefbc6b0bca6102a9017",
+    "author_name": "Ida Maynard",
+    "blog_title": "How to get your first job as a self-taught programmer",
+    "author_image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "blog_cover": "https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "read_time": "5",
+    "published": "Mar 14 (4 Days ago)"
+  },
+  {
+    "id": "6425aefb71e4d71763144b37",
+    "author_name": "Cassie Finch",
+    "blog_title": "5 Common Mistakes to Avoid When Writing Python Code",
+    "author_image": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "blog_cover": "https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "read_time": "10",
+    "published": "Mar 12 (6 Days ago)"
+  },
+  {
+    "id": "6425aefbdf6b6737fd93a7b9",
+    "author_name": "Mcdaniel Key",
+    "blog_title": "The Power of React: Building High-Quality Web Applications",
+    "author_image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+    "blog_cover": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "read_time": "8",
+    "published": "Feb 12 (36 Days ago)"
+  },
+  {
+    "id": "6425aefb844a7b62077511e9",
+    "author_name": "Freeman Jensen",
+    "blog_title": "The Art of Debugging: Tips and Tricks for Solving Tricky Bugs",
+    "author_image": "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80",
+    "blog_cover": "https://images.unsplash.com/photo-1588811752802-af42bad9f378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+    "read_time": "9",
+    "published": "Feb 17 (31 Days ago)"
+  }
+]
