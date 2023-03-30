@@ -11,6 +11,7 @@ const Blog = props => {
     blog_cover,
     read_time,
     published,
+    hash,
   } = props.blog;
   return (
     <div className="blog-container">
@@ -20,6 +21,7 @@ const Blog = props => {
           <img src={author_image} alt="" />
           <div className="name">
             <h3>{author_name}</h3>
+            <h4>{published}</h4>
           </div>
         </div>
         <div className="read-time-btn">
@@ -29,6 +31,11 @@ const Blog = props => {
           </button>
         </div>
       </div>
+      <div className="blog-title">
+        <h1>{blog_title}</h1>
+        <h3>{hash}</h3>
+      </div>
+      <p className="mark-read">Mark as read</p>
     </div>
   );
 };

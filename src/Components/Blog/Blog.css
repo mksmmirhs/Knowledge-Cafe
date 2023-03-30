@@ -8,10 +8,34 @@
   display: flex;
   justify-content: space-between;
 }
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .author img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
+}
+.author h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  /* or 38px */
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  color: #111111;
+}
+.author h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  color: rgba(17, 17, 17, 0.6);
+  margin-top: 0px;
 }
 .read-time-btn {
   color: rgba(17, 17, 17, 0.6);
@@ -19,4 +43,33 @@
 .btn-bookmark {
   background-color: white;
   color: rgba(17, 17, 17, 0.6);
+  margin-left: 5px;
+}
+.blog-title h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 160%;
+  /* or 64px */
+
+  color: #111111;
+}
+.blog-title h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  /* identical to box height, or 32px */
+  color: rgba(17, 17, 17, 0.6);
+}
+.mark-read {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-decoration-line: underline;
+
+  color: #6047ec;
+  margin-bottom: 32px;
+}
+.mark-read:hover {
+  cursor: pointer;
 }
