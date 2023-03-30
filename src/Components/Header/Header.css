@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 146px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 160%;
+  /* identical to box height, or 64px */
+
+  color: #111111;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #111111;
+}
+hr {
+  border: 1px solid rgba(17, 17, 17, 0.15);
+}
