@@ -40,6 +40,7 @@ const Blog = props => {
       <p className="mark-read" onClick={() => readTimeHandler(id)}>
         Mark as read
       </p>
+      <hr />
     </div>
   );
 };
