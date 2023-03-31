@@ -12,8 +12,9 @@ const Bookmarks = props => {
       <div className="bookmark">
         <h1>Bookmarked Blogs : {bookmarks.length}</h1>
         <div className="blog-titles">
-          <Bookmark></Bookmark>
-          <Bookmark></Bookmark>
+          {bookmarks.map(bookmark => (
+            <Bookmark bookmark={bookmark}></Bookmark>
+          ))}
         </div>
       </div>
     </div>
