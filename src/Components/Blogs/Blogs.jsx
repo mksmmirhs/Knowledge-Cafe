@@ -17,14 +17,12 @@ const Blogs = () => {
   // bookmark functionality
   const bookmarkHandler = id => {
     const exist = bookmarks.find(bookmark => bookmark.id === id);
-    if (!exist) {
-      const bookmarkFind = blogs.find(blog => blog.id === id);
-      const tempBookmark = [...bookmarks, bookmarkFind];
-      setBookmarks(tempBookmark);
-    } else {
-      //toast function call
+    if (exist) {
       notify();
     }
+    const bookmarkFind = blogs.find(blog => blog.id === id);
+    const tempBookmark = [...bookmarks, bookmarkFind];
+    setBookmarks(tempBookmark);
   };
   const readTimeHandler = id => {
     const findClickedReadTime = blogs.find(blog => blog.id === id);
