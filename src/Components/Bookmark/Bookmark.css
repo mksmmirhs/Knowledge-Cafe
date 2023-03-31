@@ -1,0 +1,14 @@
+.bookmark-compo {
+  background: #ffffff;
+  border-radius: 8px;
+  height: 98px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.bookmark-compo p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  color: #111111;
+}

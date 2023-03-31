@@ -1,0 +1,50 @@
+.Bookmarks {
+  position: sticky;
+  top: 0;
+}
+.total-read {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(96, 71, 236, 0.1);
+  border: 1px solid #6047ec;
+  border-radius: 8px;
+  width: 411px;
+  margin-bottom: 24px;
+}
+.total-read p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 38px */
+
+  color: #6047ec;
+}
+.bookmark {
+  background: rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  padding: 30px;
+}
+.bookmark h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  /* or 38px */
+
+  color: #111111;
+}
+@media only screen and (max-width: 576px) {
+  .Bookmarks {
+    position: relative;
+  }
+  .total-read {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bookmark {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

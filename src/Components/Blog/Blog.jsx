@@ -1,4 +1,4 @@
-import { faBookmark } from '@fortawesome/free-solid-svg-icons';
+import { faBookmark } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Blog.css';
@@ -13,6 +13,7 @@ const Blog = props => {
     published,
     hash,
   } = props.blog;
+  const bookmarkHandler = props.bookmarkHandler;
   return (
     <div className="blog-container">
       <img src={blog_cover} alt="" />
@@ -26,7 +27,7 @@ const Blog = props => {
         </div>
         <div className="read-time-btn">
           {read_time} min read
-          <button className="btn-bookmark">
+          <button onClick={() => bookmarkHandler(id)} className="btn-bookmark">
             {<FontAwesomeIcon icon={faBookmark} />}
           </button>
         </div>
