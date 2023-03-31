@@ -3,17 +3,17 @@ import Bookmark from '../Bookmark/Bookmark';
 import './Bookmarks.css';
 
 const Bookmarks = props => {
-  const { bookmarks } = props;
+  const { bookmarks, readTime } = props;
   return (
     <div className="Bookmarks">
       <div className="total-read">
-        <p>Spent time on read : 177 min</p>
+        <p>Spent time on read : {readTime} min</p>
       </div>
       <div className="bookmark">
         <h1>Bookmarked Blogs : {bookmarks.length}</h1>
         <div className="blog-titles">
           {bookmarks.map(bookmark => (
-            <Bookmark bookmark={bookmark}></Bookmark>
+            <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>
           ))}
         </div>
       </div>

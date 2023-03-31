@@ -14,6 +14,7 @@ const Blog = props => {
     hash,
   } = props.blog;
   const bookmarkHandler = props.bookmarkHandler;
+  const readTimeHandler = props.readTimeHandler;
   return (
     <div className="blog-container">
       <img src={blog_cover} alt="" />
@@ -36,7 +37,9 @@ const Blog = props => {
         <h1>{blog_title}</h1>
         <h3>{hash}</h3>
       </div>
-      <p className="mark-read">Mark as read</p>
+      <p className="mark-read" onClick={() => readTimeHandler(id)}>
+        Mark as read
+      </p>
     </div>
   );
 };
